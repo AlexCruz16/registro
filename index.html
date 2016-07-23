@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro de usuario nuevo</title>
+    <!-- Estilos -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+  </head>
+  <body>
+     <!-- Formulario -->
+    <section class="success" id="encuesta-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hola</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                 <!-- Inicia Formulario -->
+                    <form name="sentRegistro" action="solicitud.php" method="POST">
+
+                      <div class="row control-group">
+                        <div class="form-group col-xs-12">
+                           <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+                        </div>
+                      </div>
+
+                      <div class="row control-group">
+                        <div class="form-group col-xs-12">
+                            <input type="text" class="form-control" placeholder="Edad" name="edad">
+                        </div>
+                      </div>
+
+                        <div class="row">
+                            <div class="form-group col-xs-12 linea2">
+                                <button type="submit" value="Enviar" name="Enviar" class="btn btn-success btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
